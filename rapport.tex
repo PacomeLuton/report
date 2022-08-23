@@ -43,7 +43,7 @@
 
 %----------- Informations du rapport ---------
 
-\titre{Intership report} %Titre du fichier .pdf
+\titre{Internship report} %Titre du fichier .pdf
 \departement{Computer Graphics} 
 \matiere{} 
 \motif{}
@@ -144,7 +144,7 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
     convergence rate of our approximation by using anisotropic 
     sample distribution.
 
-\> During this intership, I focused on one particular form of function.
+\> During this internship, I focused on one particular form of function.
     Lets $f\in\mathcal C(\mathbb R^d,\mathbb R)$ be a function that 
     is aligned along a vector $v \in \mathbb R^d$. That means that:
     \[ \forall x\in\mathbb R^d, \forall \lambda\in\mathbb R f(x+\lambda v) = f(x) \]
@@ -203,7 +203,7 @@ During this work, I used four different ways of creating sample distribution:
 \begin{itemize}
     \item Radial Average Target
     \item Relaxation method
-    \item Optimal Transport with Wassertein
+    \item Optimal Transport with Wasserstein
     \item Slice Optimal Transport 
 \end{itemize}
 All the proofs and the description of those methods are in Annexe. 
@@ -620,7 +620,7 @@ the metric in three classical method by those one:
     that means that the triangular inequality is no longer true with it. But at least,
     it is linear center in 0. ($d(\lambda x,0) = \lambda d(x,0)$).
 
-\subsubsection{Darth trowing Method}
+\subsubsection{Dart-throwing algorithm}
     The easiest way to test different metric is to do some dart throwing, but with weird
     shape for reject new sample.
 
@@ -647,8 +647,8 @@ the metric in three classical method by those one:
 \> \textit{Discussion}. This method clearly show the metric we used. But unfortunately, 
 it only produce low quality blue noise.
 
-\subsubsection{Wassertein Method}
-    But Wassertein method could be also adapted to change the metric. Since the algorithm
+\subsubsection{Wasserstein Method}
+    But Wasserstein method could be also adapted to change the metric. Since the algorithm
     doesn't depend on the metric used.
     \begin{figure}[H]
         \centering
@@ -697,7 +697,7 @@ it only produce low quality blue noise.
 \end{figure}
 
 
-\subsubsection{Small conclusion}
+\subsubsection{Discussion}
     \> This idea of changing the metric doesn't really work well. As the result shows, if
     we have a semi-metric (the cross), most of the method aren't adapted. Moreover, as 
     explained in
@@ -717,7 +717,7 @@ it only produce low quality blue noise.
     in the 3D space. And we should be able to have some clear improvement over our attempt
     to 3D generalization, even upgraded with multi-class sampling.
 
-\subsection{MultiLayer Perceptron}
+\subsection{Multi-layer Perceptron}
     One issue we have with all this optimization method, is that it take so much times
     to generate any sample. But since all our method are base on optimization, it is
     "easy" to train an MLP that can produce the same result. It will be very to
@@ -725,7 +725,7 @@ it only produce low quality blue noise.
     in real time.\\
 
 \section{Conclusion}
-    \> During this intership I touched well more things than I initially expected.
+    \> During this internship I touched well more things than I initially expected.
     The objetive before starting was to create samples for motion blur and depth of field
     that are better than low discrepancy sampler, using slice optimal transport.
 
@@ -795,7 +795,7 @@ Thus, we want to find the $X$ that minimize this distance. For each $x_i$, we wa
 The minimum is achieve in the median, in other word $x_i = F_\mu^{-1}\left (\frac{i+0.5}{N} \right )$
 
 
-\section{How i do things}
+\section{Blue noise optimization methods}
 
 \subsection{Blue noise with radial average target}
 

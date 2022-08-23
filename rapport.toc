@@ -21,18 +21,18 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Application in 2D}{13}{subsubsection.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}Application in 3D}{14}{subsubsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.4}Other metric}{15}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Darth trowing Method}{15}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Wassertein Method}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.1}Dart-throwing algorithm}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Wasserstein Method}{16}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Relaxation Method}{17}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {3.4.4}Small conclusion}{17}{subsubsection.3.4.4}%
+\contentsline {subsubsection}{\numberline {3.4.4}Discussion}{17}{subsubsection.3.4.4}%
 \contentsline {section}{\numberline {4}To go further}{17}{section.4}%
 \contentsline {subsection}{\numberline {4.1}A better 3D generalization}{17}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}MultiLayer Perceptron}{17}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Multi-layer Perceptron}{17}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Conclusion}{18}{section.5}%
 \contentsline {section}{\numberline {A}Optimal Transport}{20}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Optimal transport definition}{20}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}1D Optimal Transport}{20}{subsection.A.2}%
-\contentsline {section}{\numberline {B}How i do things}{21}{appendix.B}%
+\contentsline {section}{\numberline {B}Blue noise optimization methods}{21}{appendix.B}%
 \contentsline {subsection}{\numberline {B.1}Blue noise with radial average target}{21}{subsection.B.1}%
 \contentsline {subsubsection}{\numberline {B.1.1}Compute Radial Average Power Spectrum}{21}{subsubsection.B.1.1}%
 \contentsline {subsubsection}{\numberline {B.1.2}What we want to do:}{21}{subsubsection.B.1.2}%
