@@ -110,6 +110,10 @@ for those particular functions.
     \tabularnewline
         $SW_p$ & slice Wasserstein distance
     \tabularnewline
+        $\mathbb S^{d-1}$ & the set of all vector of norm $1$
+    \tabularnewline
+        $\gamma$ & a probabilistic measure on $\mathbb S^{d-1}$
+    \tabularnewline
         $D_N^*$ & discrepancy
     \tabularnewline
         $B$ & a set of hihg dimensional rectangle
@@ -231,22 +235,21 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
 
 \section{Anisotropic sample}
 
-During this work, I used four different ways of creating sample distribution:
+During this work, I used four different ways of generating samples:
 \begin{itemize}
-    \item Radial Average Target
-    \item Relaxation method
-    \item Optimal Transport with Wasserstein
-    \item Slice Optimal Transport 
+    \item Radial Average Target algorithm
+    \item One relaxation algorithm
+    \item Optimal Transport with Wasserstein algorithm
+    \item Slice Optimal Transport algorithm
 \end{itemize}
-All the proofs and the description of those methods are in Annexe. 
-You don't have to read how they work to understand the rest of this work.
+All the proofs and the description of those algorithms are in Annexe. 
+The understanding of those algorithms aren't require to understand the rest of this work.
 
 \subsection{Radial Average algorithm}
-    The first method I tried is to optimize directly for a target power spectrum.
-    This method only requires to have a radial average target distribution. Thus, we can
-    target a Blue Noise distribution, but we can also target a step noise distribution.
-    
-    We can also change a bit the algorithm, and instead of taking the all radial average,
+    \> The first idea in order to produce anisotropic sample is to optimize directly for a 
+    target power spectrum. In this algorithm, we classicaly target a radial average 
+    power spectrum. But we can also change a bit the algorithm, and instead of taking
+    the all radial average,
     we can take only a part of the angle. For instance, we could take the average for
     point in the power spectrum that are in $[\frac{4\pi}{3} - 0.1, \frac{4\pi}{3}+0.1]$
     
@@ -270,17 +273,18 @@ You don't have to read how they work to understand the rest of this work.
     \end{figure}
     
 \> \textit{Discussion}. The method has the advantage of being explicit. The blue noise
-    generated isn't of highest quality. The sample for the double wedge 
-    spectrum look terrible. But the main issue with this method, is that it doesn't scale
-    well. The time needed to generate a sample increase more than quadratically. 
+    generated isn't of highest quality. The sample for the double wedge spectrum 
+    look terrible. Thus, it is probably not the good idea in order to produce anisotropic samples.
+    Also, this algorithm has a major flaw, it doesn't scale well with higher number of point 
+    inside a samples. 
 
 %\> \textit{For fun}. In fact, maybe we could be able to draw any drawing in the power
 %    spectrum. {\color{red} TO DO : try to do a nice drawing}
 
 \subsection{Modified slice optimal transport}
 
-\> A PhD from the lab, Corentin Salaün, discovered that with Slice Optimal Transport (SOT), 
-if instead of optimizing for the classical SOT (more detail about how it works can be found in the annexe):
+\> A PhD from the lab, Corentin Salaün, discovered that with the slice optimal transport
+algorithm, if instead of doing the classical integration:
 \[SW_p(\mu, \nu) = \int_{\mathbb{S}^{d-1}} W_p(\mu^\theta,\nu^\theta) d\theta\]
 We optimise for:
 \[SW_p(\mu, \nu) = \int_{\mathbb{S}^{d-1}} \gamma(\theta) W_p(\mu^\theta,\nu^\theta) d\theta\]
@@ -288,9 +292,10 @@ where $\gamma$ is a probabilistic measures on $\mathbb{S}^{d-1}$. Then we can ge
 power spectrum. And even better, the impact on the power spectrum seems to depend linearly to
 the probabilistic measures we used.
 
-\> \textit{Discussion}. The idea behind, is that by doing so, we will privileged some
-    direction on other. And thus, we hope the by doing so, our sample we be better in
-    those direction than if we had optimize every direction.
+\> \textit{Intuition}. The idea behind, is that by doing so, we will privileged some
+    direction on other. And thus, we hope the by doing so, our sample we work better in
+    those direction than if we had optimize every direction at the cost of having worst result
+    in other direction.
     
 \> \textit{Remark}. The Slice Optimal Transport blue noise is obtain when 
     $\gamma$ is uniformly distributed over $\mathbb{S}^{d-1}$.
@@ -299,7 +304,7 @@ the probabilistic measures we used.
 
 \subsubsubsection{Simple double wedge}
 \textit{Objective} Like introduce in section $2.2$, we want to create sample distribution
-    that have a power spectrum that is a double wedge. In order to do so, we can take
+    that have a power spectrum that are double wedge. In order to do so, we can take
     a well chosen $\gamma$ like describe below:
 
 In the 2D euclidean domain. $\mathbb{S}^{d-1}$ is isomorphe to angle $\theta \in [0,2\pi]$.
@@ -342,7 +347,8 @@ rectangle function.
             & \frame{\includegraphics[width=20mm]{plot/legend.png}}
         \end{tabular}\\
         \textit{The X-axis is the angle of orientation of the rectangle, and the Y-axis
-        correspond to the means square error. The rectangle we integrate is $0.96$ unit long and $0.12$ unit width}\\
+        correspond to the means square error. The rectangle we integrate is $0.96$ unit 
+        long and $0.12$ unit wide}\\
         
     \end{figure}    
 
