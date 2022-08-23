@@ -3,23 +3,23 @@
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Preliminaries}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Monte Carlo}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Spectral analyse of some function}{3}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Anisotropic sample}{4}{section.3}%
+\contentsline {subsection}{\numberline {2.2}Spectral analysis}{3}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Anisotropic sample}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Radial Average algorithm}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Modified slice optimal transport}{6}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Double wedge spectrum}{6}{subsubsection.3.2.1}%
 \contentsline {subsubsubsection}{\numberline {3.2.1.a}Simple double wedge}{6}{subsubsubsection.3.2.1.1}%
-\contentsline {subsubsubsection}{\numberline {3.2.1.b}Better double wedge}{7}{subsubsubsection.3.2.1.2}%
-\contentsline {subsubsection}{\numberline {3.2.2}Cross in 2D}{9}{subsubsection.3.2.2}%
-\contentsline {subsubsubsection}{\numberline {3.2.2.a}How to make a cross}{9}{subsubsubsection.3.2.2.1}%
-\contentsline {subsubsubsection}{\numberline {3.2.2.b}Fixed size cross}{9}{subsubsubsection.3.2.2.2}%
+\contentsline {subsubsubsection}{\numberline {3.2.1.b}Better double wedge}{8}{subsubsubsection.3.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Cross in 2D}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsubsection}{\numberline {3.2.2.a}How to make a cross}{10}{subsubsubsection.3.2.2.1}%
+\contentsline {subsubsubsection}{\numberline {3.2.2.b}Fixed size cross}{10}{subsubsubsection.3.2.2.2}%
 \contentsline {subsubsubsection}{\numberline {3.2.2.c}Moving size cross}{11}{subsubsubsection.3.2.2.3}%
-\contentsline {subsubsection}{\numberline {3.2.3}Discussion}{11}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Discussion}{12}{subsubsection.3.2.3}%
 \contentsline {subsubsection}{\numberline {3.2.4}Attempt to 3D generalization}{12}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.3}MultiClass sampling}{12}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Introduction to the idea}{12}{subsubsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3}MultiClass sampling}{13}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Introduction to the idea}{13}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Application in 2D}{13}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3.3.3}Application in 3D}{14}{subsubsection.3.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.3}Application in 3D}{15}{subsubsection.3.3.3}%
 \contentsline {subsection}{\numberline {3.4}Other metric}{15}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}Dart-throwing algorithm}{15}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Wasserstein Method}{16}{subsubsection.3.4.2}%

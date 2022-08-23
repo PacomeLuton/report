@@ -122,15 +122,14 @@ for those particular functions.
 
 \subsection{Monte Carlo}
 
-Before going further into what I have done, here is a brief 
-introduction to Monte Carlo integration. We want to compute integrals of 
+Let's start with an introduction to Monte Carlo integration. We want to compute integrals of 
 the form:
     \[ I = \int_{\mathbb A} f(x) dx\]
 where $\mathbb A$ is the $d$ dimensional euclidean space.
 
 \> \textit{Monte Carlo integration}. Monte Carlo integration is an approximation
     $I_N$ of the integral $I$ by evaluation $f$ in $N$ random points $\{x_j\}_{j=1}^N$ uniformly 
-    distributed over the space $A$. Formally :
+    distributed over the space $\mathbb A$. Formally :
     \[ I_N = \int_{\mathbb A} S(x)f(x)dx, 
         \: \text{ with } \:
     S(x) = \frac{1}{N} \sum_{j=1}^N \delta(\lVert x-x_j \rVert) \] 
@@ -143,7 +142,8 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
     \noindent where $F_f$ is the Fourier transform of $f$ and $\ F_f^*$ is the 
     complex conjugate of $F_f$.
 
-\> \textit{Variance formulation}. Prior works [\cite{Durand2011AFA}; \cite{Pilleboue:2015:VAMCI}; \cite{10.1145/2461912.2462013}] 
+\> \textit{Variance formulation}. This formulation in the Fourier domain leads to a simple
+    formulation for the variance of our approximation. Prior works  [\cite{Durand2011AFA}; \cite{Pilleboue:2015:VAMCI}; \cite{10.1145/2461912.2462013}] 
     have shown that the variance of $I_N$ depends on the power spectrum of the integral 
     and the expected power spectrum of the homogenized sampling pattern:
     \[ Var(I_N) = \int_\Theta \langle \mathcal P_S(\omega)\rangle \mathcal P_f(\omega) d\omega \]
@@ -165,12 +165,13 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
 %    $\mathbb{S}^{d-1}$ that is not negligible, we can at most achieve a dark region of 
 %    size $O(1/N^{1/d})$ in all direction}
     
-\subsection{Spectral analyse of some function}
+\subsection{Spectral analysis}
 
 \> This formulation of the variance with power spectrum tells us 
     that if we want to reduce the variance, we need to match the 
     spectrum of our point distribution with that of the function 
-    we are integrating.
+    we are integrating. In other words, for frequency $\omega$
+    where $\mathcal F_f(\omega)$ is big, we want $\mathcal F_S(\omega)$ to be small.
 
 \> For instance, in the paper [\cite{singh17convergence}], they showed that for 
     some rendering function, we may have some improvement in the 
@@ -178,7 +179,7 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
     sample distribution.
 
 \> During this internship, I focused on one particular form of function.
-    Lets $f\in\mathcal C(\mathbb R^d,\mathbb R)$ be a function that 
+    Let's $f\in\mathcal C(\mathbb R^d,\mathbb R)$ be a function that 
     is aligned along a vector $v \in \mathbb R^d$. That means that:
     \[ \forall x\in\mathbb R^d, \forall \lambda\in\mathbb R f(x+\lambda v) = f(x) \]
     We can then compute the Fourier transform of this function:
@@ -224,11 +225,9 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
         for our sample.}
     \end{figure}
     
-\> \textit{Remark.} An other type of anisotropic function we're interested in, 
+\>  An other type of anisotropic function we're interested in, 
     is the one that are close to be axes aligned. So the power spectrum 
-    targeted is a cross aligned with the axis [\cite{singh17convergence}]. 
-    This is one of the reason why 
-    low discrepancy sampler are so effective.
+    targeted is a cross aligned with the axis [\cite{singh17convergence}].
 
 \section{Anisotropic sample}
 
@@ -280,8 +279,8 @@ You don't have to read how they work to understand the rest of this work.
 
 \subsection{Modified slice optimal transport}
 
-\> A PhD from the lab, Corentin Salaün, discovered that with Slice Optimal Transport, 
-if instead of optimizing for the classical SOT (more detail about how  it works can be found in the annexe):
+\> A PhD from the lab, Corentin Salaün, discovered that with Slice Optimal Transport (SOT), 
+if instead of optimizing for the classical SOT (more detail about how it works can be found in the annexe):
 \[SW_p(\mu, \nu) = \int_{\mathbb{S}^{d-1}} W_p(\mu^\theta,\nu^\theta) d\theta\]
 We optimise for:
 \[SW_p(\mu, \nu) = \int_{\mathbb{S}^{d-1}} \gamma(\theta) W_p(\mu^\theta,\nu^\theta) d\theta\]
