@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.25)  23 AUG 2022 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.12.25)  23 AUG 2022 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1321,17 +1321,17 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 116.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [2]
-<target/2D_fun.png, id=264, 501.875pt x 501.875pt>
+<target/2D_fun.png, id=265, 501.875pt x 501.875pt>
 File: target/2D_fun.png Graphic file (type png)
 <use target/2D_fun.png>
 Package pdftex.def Info: target/2D_fun.png  used on input line 183.
 (pdftex.def)             Requested size: 136.57323pt x 136.57251pt.
-<target/2D_spectrum.png, id=265, 361.35pt x 361.35pt>
+<target/2D_spectrum.png, id=266, 361.35pt x 361.35pt>
 File: target/2D_spectrum.png Graphic file (type png)
 <use target/2D_spectrum.png>
 Package pdftex.def Info: target/2D_spectrum.png  used on input line 184.
 (pdftex.def)             Requested size: 136.57323pt x 136.57007pt.
-<target/2D_target.png, id=267, 501.875pt x 501.875pt>
+<target/2D_target.png, id=268, 501.875pt x 501.875pt>
 File: target/2D_target.png Graphic file (type png)
 <use target/2D_target.png>
 Package pdftex.def Info: target/2D_target.png  used on input line 185.
@@ -1345,47 +1345,47 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 193.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [3]
-<sample/SGD_blue.pdf, id=276, 265.9332pt x 267.10992pt>
+<sample/SGD_blue.pdf, id=277, 265.9332pt x 267.10992pt>
 File: sample/SGD_blue.pdf Graphic file (type pdf)
 <use sample/SGD_blue.pdf>
 Package pdftex.def Info: sample/SGD_blue.pdf  used on input line 224.
 (pdftex.def)             Requested size: 136.57323pt x 137.18205pt.
-<sample/SGD_step.pdf, id=277, 265.4554pt x 267.10992pt>
+<sample/SGD_step.pdf, id=278, 265.4554pt x 267.10992pt>
 File: sample/SGD_step.pdf Graphic file (type pdf)
 <use sample/SGD_step.pdf>
 Package pdftex.def Info: sample/SGD_step.pdf  used on input line 225.
 (pdftex.def)             Requested size: 136.57323pt x 137.42253pt.
-<sample/SGD_dw.pdf, id=278, 268.4497pt x 267.10992pt>
+<sample/SGD_dw.pdf, id=279, 268.4497pt x 267.10992pt>
 File: sample/SGD_dw.pdf Graphic file (type pdf)
 <use sample/SGD_dw.pdf>
 Package pdftex.def Info: sample/SGD_dw.pdf  used on input line 226.
 (pdftex.def)             Requested size: 136.57323pt x 135.89412pt.
-<sample/SGD_blue.png, id=279, 138.5175pt x 138.5175pt>
+<sample/SGD_blue.png, id=280, 138.5175pt x 138.5175pt>
 File: sample/SGD_blue.png Graphic file (type png)
 <use sample/SGD_blue.png>
 Package pdftex.def Info: sample/SGD_blue.png  used on input line 228.
 (pdftex.def)             Requested size: 136.57323pt x 136.57263pt.
-<sample/SGD_step_spectrum.png, id=280, 197.73875pt x 197.73875pt>
+<sample/SGD_step_spectrum.png, id=281, 197.73875pt x 197.73875pt>
 File: sample/SGD_step_spectrum.png Graphic file (type png)
 <use sample/SGD_step_spectrum.png>
 Package pdftex.def Info: sample/SGD_step_spectrum.png  used on input line 229.
 (pdftex.def)             Requested size: 136.57323pt x 136.57565pt.
-<sample/SGD_dw_spectrum.png, id=281, 300.12125pt x 299.1175pt>
+<sample/SGD_dw_spectrum.png, id=282, 300.12125pt x 299.1175pt>
 File: sample/SGD_dw_spectrum.png Graphic file (type png)
 <use sample/SGD_dw_spectrum.png>
 Package pdftex.def Info: sample/SGD_dw_spectrum.png  used on input line 230.
 (pdftex.def)             Requested size: 136.57323pt x 136.12149pt.
-<sample/SGD_blue_radial.pdf, id=282, 361.97232pt x 175.57355pt>
+<sample/SGD_blue_radial.pdf, id=283, 361.97232pt x 175.57355pt>
 File: sample/SGD_blue_radial.pdf Graphic file (type pdf)
 <use sample/SGD_blue_radial.pdf>
 Package pdftex.def Info: sample/SGD_blue_radial.pdf  used on input line 232.
 (pdftex.def)             Requested size: 136.57323pt x 66.24445pt.
-<sample/SGD_step_radial.pdf, id=283, 361.97232pt x 175.57355pt>
+<sample/SGD_step_radial.pdf, id=284, 361.97232pt x 175.57355pt>
 File: sample/SGD_step_radial.pdf Graphic file (type pdf)
 <use sample/SGD_step_radial.pdf>
 Package pdftex.def Info: sample/SGD_step_radial.pdf  used on input line 233.
 (pdftex.def)             Requested size: 136.57323pt x 66.24445pt.
-<sample/SGD_dw_radial.pdf, id=284, 361.97232pt x 175.57355pt>
+<sample/SGD_dw_radial.pdf, id=285, 361.97232pt x 175.57355pt>
 File: sample/SGD_dw_radial.pdf Graphic file (type pdf)
 <use sample/SGD_dw_radial.pdf>
 Package pdftex.def Info: sample/SGD_dw_radial.pdf  used on input line 234.
@@ -1417,52 +1417,52 @@ _dw_radial.pdf>]
 Package hyperref Warning: bookmark level for unknown subsubsubsection defaults 
 to 0.
 
-<sample/dw1.pdf, id=312, 272.2943pt x 267.10992pt>
+<sample/dw1.pdf, id=313, 272.2943pt x 267.10992pt>
 File: sample/dw1.pdf Graphic file (type pdf)
 <use sample/dw1.pdf>
 Package pdftex.def Info: sample/dw1.pdf  used on input line 280.
 (pdftex.def)             Requested size: 93.89409pt x 92.10411pt.
-<sample/dw2.pdf, id=313, 264.74124pt x 267.10992pt>
+<sample/dw2.pdf, id=314, 264.74124pt x 267.10992pt>
 File: sample/dw2.pdf Graphic file (type pdf)
 <use sample/dw2.pdf>
 Package pdftex.def Info: sample/dw2.pdf  used on input line 281.
 (pdftex.def)             Requested size: 93.89409pt x 94.73297pt.
-<sample/dw3.pdf, id=314, 264.05904pt x 267.10992pt>
+<sample/dw3.pdf, id=315, 264.05904pt x 267.10992pt>
 File: sample/dw3.pdf Graphic file (type pdf)
 <use sample/dw3.pdf>
 Package pdftex.def Info: sample/dw3.pdf  used on input line 282.
 (pdftex.def)             Requested size: 93.89409pt x 94.97752pt.
-<sample/dw1b.pdf, id=315, 262.91058pt x 267.10992pt>
+<sample/dw1b.pdf, id=316, 262.91058pt x 267.10992pt>
 File: sample/dw1b.pdf Graphic file (type pdf)
 <use sample/dw1b.pdf>
 Package pdftex.def Info: sample/dw1b.pdf  used on input line 283.
 (pdftex.def)             Requested size: 93.89409pt x 95.39325pt.
-<sample/dw_1.png, id=316, 135.50626pt x 135.50626pt>
+<sample/dw_1.png, id=317, 135.50626pt x 135.50626pt>
 File: sample/dw_1.png Graphic file (type png)
 <use sample/dw_1.png>
 Package pdftex.def Info: sample/dw_1.png  used on input line 285.
 (pdftex.def)             Requested size: 93.89409pt x 93.8964pt.
-<sample/dw_2.png, id=317, 135.50626pt x 135.50626pt>
+<sample/dw_2.png, id=318, 135.50626pt x 135.50626pt>
 File: sample/dw_2.png Graphic file (type png)
 <use sample/dw_2.png>
 Package pdftex.def Info: sample/dw_2.png  used on input line 286.
 (pdftex.def)             Requested size: 93.89409pt x 93.8964pt.
-<sample/dw_3.png, id=318, 135.50626pt x 135.50626pt>
+<sample/dw_3.png, id=319, 135.50626pt x 135.50626pt>
 File: sample/dw_3.png Graphic file (type png)
 <use sample/dw_3.png>
 Package pdftex.def Info: sample/dw_3.png  used on input line 287.
 (pdftex.def)             Requested size: 93.89409pt x 93.8964pt.
-<sample/dw_1b.png, id=319, 135.50626pt x 135.50626pt>
+<sample/dw_1b.png, id=320, 135.50626pt x 135.50626pt>
 File: sample/dw_1b.png Graphic file (type png)
 <use sample/dw_1b.png>
 Package pdftex.def Info: sample/dw_1b.png  used on input line 288.
 (pdftex.def)             Requested size: 93.89409pt x 93.8964pt.
-<plot/integration_rot_bad.pdf, id=320, 462.52798pt x 346.89601pt>
+<plot/integration_rot_bad.pdf, id=321, 462.52798pt x 346.89601pt>
 File: plot/integration_rot_bad.pdf Graphic file (type pdf)
 <use plot/integration_rot_bad.pdf>
 Package pdftex.def Info: plot/integration_rot_bad.pdf  used on input line 309.
 (pdftex.def)             Requested size: 341.43306pt x 256.085pt.
-<plot/legend.png, id=321, 314.17375pt x 455.7025pt>
+<plot/legend.png, id=322, 314.17375pt x 455.7025pt>
 File: plot/legend.png Graphic file (type png)
 <use plot/legend.png>
 Package pdftex.def Info: plot/legend.png  used on input line 310.
@@ -1478,42 +1478,42 @@ Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 316.
 [6 <./sample/dw1.pdf> <./sample/dw2.pdf> <./sample/dw3.pdf> <./sample/dw1b.pdf>
  <./sample/dw_1.png> <./sample/dw_2.png> <./sample/dw_3.png> <./sample/dw_1b.pn
 g>]
-<sample/dwb1.pdf, id=339, 269.64915pt x 267.10992pt>
+<sample/dwb1.pdf, id=340, 269.64915pt x 267.10992pt>
 File: sample/dwb1.pdf Graphic file (type pdf)
 <use sample/dwb1.pdf>
 Package pdftex.def Info: sample/dwb1.pdf  used on input line 335.
 (pdftex.def)             Requested size: 93.89409pt x 93.00893pt.
-<sample/dwb2.pdf, id=340, 269.92996pt x 267.10992pt>
+<sample/dwb2.pdf, id=341, 269.92996pt x 267.10992pt>
 File: sample/dwb2.pdf Graphic file (type pdf)
 <use sample/dwb2.pdf>
 Package pdftex.def Info: sample/dwb2.pdf  used on input line 336.
 (pdftex.def)             Requested size: 93.89409pt x 92.91518pt.
-<sample/dwb3.pdf, id=341, 271.98831pt x 267.10992pt>
+<sample/dwb3.pdf, id=342, 271.98831pt x 267.10992pt>
 File: sample/dwb3.pdf Graphic file (type pdf)
 <use sample/dwb3.pdf>
 Package pdftex.def Info: sample/dwb3.pdf  used on input line 337.
 (pdftex.def)             Requested size: 93.89409pt x 92.21008pt.
-<sample/dwb1b.pdf, id=342, 267.07582pt x 267.10992pt>
+<sample/dwb1b.pdf, id=343, 267.07582pt x 267.10992pt>
 File: sample/dwb1b.pdf Graphic file (type pdf)
 <use sample/dwb1b.pdf>
 Package pdftex.def Info: sample/dwb1b.pdf  used on input line 338.
 (pdftex.def)             Requested size: 93.89409pt x 93.9056pt.
-<sample/dwb1.png, id=343, 177.66376pt x 177.66376pt>
+<sample/dwb1.png, id=344, 177.66376pt x 177.66376pt>
 File: sample/dwb1.png Graphic file (type png)
 <use sample/dwb1.png>
 Package pdftex.def Info: sample/dwb1.png  used on input line 340.
 (pdftex.def)             Requested size: 93.89409pt x 93.89566pt.
-<sample/dwb2.png, id=344, 176.66pt x 176.66pt>
+<sample/dwb2.png, id=345, 176.66pt x 176.66pt>
 File: sample/dwb2.png Graphic file (type png)
 <use sample/dwb2.png>
 Package pdftex.def Info: sample/dwb2.png  used on input line 341.
 (pdftex.def)             Requested size: 93.89409pt x 93.89351pt.
-<sample/dwb3.png, id=345, 175.65625pt x 176.66pt>
+<sample/dwb3.png, id=346, 175.65625pt x 176.66pt>
 File: sample/dwb3.png Graphic file (type png)
 <use sample/dwb3.png>
 Package pdftex.def Info: sample/dwb3.png  used on input line 342.
 (pdftex.def)             Requested size: 93.89409pt x 94.43263pt.
-<sample/dwb1b.png, id=346, 177.66376pt x 177.66376pt>
+<sample/dwb1b.png, id=347, 177.66376pt x 177.66376pt>
 File: sample/dwb1b.png Graphic file (type png)
 <use sample/dwb1b.png>
 Package pdftex.def Info: sample/dwb1b.png  used on input line 343.
@@ -1527,7 +1527,7 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 352.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [7 <./plot/integration_rot_bad.pdf> <./plot/legend.png>]
-<plot/integration_rot_good.pdf, id=366, 462.52798pt x 346.89601pt>
+<plot/integration_rot_good.pdf, id=367, 462.52798pt x 346.89601pt>
 File: plot/integration_rot_good.pdf Graphic file (type pdf)
 <use plot/integration_rot_good.pdf>
 Package pdftex.def Info: plot/integration_rot_good.pdf  used on input line 358.
@@ -1537,7 +1537,7 @@ File: plot/legend.png Graphic file (type png)
 <use plot/legend.png>
 Package pdftex.def Info: plot/legend.png  used on input line 359.
 (pdftex.def)             Requested size: 56.9055pt x 82.53746pt.
-<plot/integration_rec_dw.pdf, id=367, 462.52798pt x 346.89601pt>
+<plot/integration_rec_dw.pdf, id=368, 462.52798pt x 346.89601pt>
 File: plot/integration_rec_dw.pdf Graphic file (type pdf)
 <use plot/integration_rec_dw.pdf>
 Package pdftex.def Info: plot/integration_rec_dw.pdf  used on input line 368.
@@ -1557,42 +1557,42 @@ Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 370.
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 378.
 
-<sample/cross2.pdf, id=399, 266.77257pt x 267.10992pt>
+<sample/cross2.pdf, id=400, 266.77257pt x 267.10992pt>
 File: sample/cross2.pdf Graphic file (type pdf)
 <use sample/cross2.pdf>
 Package pdftex.def Info: sample/cross2.pdf  used on input line 408.
 (pdftex.def)             Requested size: 93.89409pt x 94.01157pt.
-<sample/cross5.pdf, id=400, 265.97108pt x 267.10992pt>
+<sample/cross5.pdf, id=401, 265.97108pt x 267.10992pt>
 File: sample/cross5.pdf Graphic file (type pdf)
 <use sample/cross5.pdf>
 Package pdftex.def Info: sample/cross5.pdf  used on input line 409.
 (pdftex.def)             Requested size: 93.89409pt x 94.29279pt.
-<sample/cross10.pdf, id=401, 268.48857pt x 267.10992pt>
+<sample/cross10.pdf, id=402, 268.48857pt x 267.10992pt>
 File: sample/cross10.pdf Graphic file (type pdf)
 <use sample/cross10.pdf>
 Package pdftex.def Info: sample/cross10.pdf  used on input line 410.
 (pdftex.def)             Requested size: 93.89409pt x 93.41243pt.
-<sample/cross40.pdf, id=402, 266.5691pt x 267.10992pt>
+<sample/cross40.pdf, id=403, 266.5691pt x 267.10992pt>
 File: sample/cross40.pdf Graphic file (type pdf)
 <use sample/cross40.pdf>
 Package pdftex.def Info: sample/cross40.pdf  used on input line 411.
 (pdftex.def)             Requested size: 93.89409pt x 94.08493pt.
-<sample/cross2.png, id=403, 252.945pt x 251.94125pt>
+<sample/cross2.png, id=404, 252.945pt x 251.94125pt>
 File: sample/cross2.png Graphic file (type png)
 <use sample/cross2.png>
 Package pdftex.def Info: sample/cross2.png  used on input line 413.
 (pdftex.def)             Requested size: 93.89409pt x 93.5205pt.
-<sample/cross5.png, id=404, 252.945pt x 252.945pt>
+<sample/cross5.png, id=405, 252.945pt x 252.945pt>
 File: sample/cross5.png Graphic file (type png)
 <use sample/cross5.png>
 Package pdftex.def Info: sample/cross5.png  used on input line 414.
 (pdftex.def)             Requested size: 93.89409pt x 93.89308pt.
-<sample/cross10.png, id=405, 252.945pt x 252.945pt>
+<sample/cross10.png, id=406, 252.945pt x 252.945pt>
 File: sample/cross10.png Graphic file (type png)
 <use sample/cross10.png>
 Package pdftex.def Info: sample/cross10.png  used on input line 415.
 (pdftex.def)             Requested size: 93.89409pt x 93.89308pt.
-<sample/cross40.png, id=406, 252.945pt x 252.945pt>
+<sample/cross40.png, id=407, 252.945pt x 252.945pt>
 File: sample/cross40.png Graphic file (type png)
 <use sample/cross40.png>
 Package pdftex.def Info: sample/cross40.png  used on input line 416.
@@ -1606,19 +1606,19 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 425.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
 [9 <./plot/integration_rec_dw.pdf>]
-<plot/integration_cube_worst.pdf, id=450, 462.52798pt x 346.89601pt>
+<plot/integration_cube_worst.pdf, id=451, 462.52798pt x 346.89601pt>
 File: plot/integration_cube_worst.pdf Graphic file (type pdf)
 <use plot/integration_cube_worst.pdf>
 Package pdftex.def Info: plot/integration_cube_worst.pdf  used on input line 43
 1.
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
-<plot/integration_cube_best.pdf, id=451, 462.52798pt x 346.89601pt>
+<plot/integration_cube_best.pdf, id=452, 462.52798pt x 346.89601pt>
 File: plot/integration_cube_best.pdf Graphic file (type pdf)
 <use plot/integration_cube_best.pdf>
 Package pdftex.def Info: plot/integration_cube_best.pdf  used on input line 432
 .
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
-<plot/integration_cube_rot.pdf, id=452, 462.52798pt x 346.89601pt>
+<plot/integration_cube_rot.pdf, id=453, 462.52798pt x 346.89601pt>
 File: plot/integration_cube_rot.pdf Graphic file (type pdf)
 <use plot/integration_cube_rot.pdf>
 Package pdftex.def Info: plot/integration_cube_rot.pdf  used on input line 440.
@@ -1636,13 +1636,13 @@ Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 442.
 le/cross40.pdf> <./sample/cross2.png> <./sample/cross5.png> <./sample/cross10.p
 ng> <./sample/cross40.png> <./plot/integration_cube_worst.pdf> <./plot/integrat
 ion_cube_best.pdf>]
-<plot/integration_cube2_best.pdf, id=543, 462.52798pt x 346.89601pt>
+<plot/integration_cube2_best.pdf, id=544, 462.52798pt x 346.89601pt>
 File: plot/integration_cube2_best.pdf Graphic file (type pdf)
 <use plot/integration_cube2_best.pdf>
 Package pdftex.def Info: plot/integration_cube2_best.pdf  used on input line 45
 4.
 (pdftex.def)             Requested size: 213.39566pt x 160.05048pt.
-<plot/integration_cube2_average.pdf, id=544, 462.52798pt x 346.89601pt>
+<plot/integration_cube2_average.pdf, id=545, 462.52798pt x 346.89601pt>
 File: plot/integration_cube2_average.pdf Graphic file (type pdf)
 <use plot/integration_cube2_average.pdf>
 Package pdftex.def Info: plot/integration_cube2_average.pdf  used on input line
@@ -1667,7 +1667,7 @@ ot/integration_cube2_average.pdf>]
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 479.
 
-<target/diadic_nets.png, id=660, 646.415pt x 647.41875pt>
+<target/diadic_nets.png, id=661, 646.415pt x 647.41875pt>
 File: target/diadic_nets.png Graphic file (type png)
 <use target/diadic_nets.png>
 Package pdftex.def Info: target/diadic_nets.png  used on input line 509.
@@ -1690,44 +1690,44 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 535.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [13 <./target/diadic_nets.png>]
-<sample/ours_grid.pdf, id=676, 267.10992pt x 267.10992pt>
+<sample/ours_grid.pdf, id=677, 267.10992pt x 267.10992pt>
 File: sample/ours_grid.pdf Graphic file (type pdf)
 <use sample/ours_grid.pdf>
 Package pdftex.def Info: sample/ours_grid.pdf  used on input line 550.
 (pdftex.def)             Requested size: 85.35826pt x 85.35872pt.
-<sample/ours_grid_spectrum.png, id=677, 206.7725pt x 206.7725pt>
+<sample/ours_grid_spectrum.png, id=678, 206.7725pt x 206.7725pt>
 File: sample/ours_grid_spectrum.png Graphic file (type png)
 <use sample/ours_grid_spectrum.png>
 Package pdftex.def Info: sample/ours_grid_spectrum.png  used on input line 551.
 
 (pdftex.def)             Requested size: 85.35826pt x 85.3578pt.
-<sample/ours_cmj.pdf, id=678, 267.10992pt x 267.10992pt>
+<sample/ours_cmj.pdf, id=679, 267.10992pt x 267.10992pt>
 File: sample/ours_cmj.pdf Graphic file (type pdf)
 <use sample/ours_cmj.pdf>
 Package pdftex.def Info: sample/ours_cmj.pdf  used on input line 557.
 (pdftex.def)             Requested size: 85.35826pt x 85.35872pt.
-<sample/ours_cmj_spectrum.png, id=679, 240.9pt x 240.9pt>
+<sample/ours_cmj_spectrum.png, id=680, 240.9pt x 240.9pt>
 File: sample/ours_cmj_spectrum.png Graphic file (type png)
 <use sample/ours_cmj_spectrum.png>
 Package pdftex.def Info: sample/ours_cmj_spectrum.png  used on input line 558.
 (pdftex.def)             Requested size: 85.35826pt x 85.3565pt.
-<sample/ours_dyadic.pdf, id=680, 267.34116pt x 267.10992pt>
+<sample/ours_dyadic.pdf, id=681, 267.34116pt x 267.10992pt>
 File: sample/ours_dyadic.pdf Graphic file (type pdf)
 <use sample/ours_dyadic.pdf>
 Package pdftex.def Info: sample/ours_dyadic.pdf  used on input line 564.
 (pdftex.def)             Requested size: 85.35826pt x 85.28535pt.
-<sample/ours_dyadic_spectrum.png, id=681, 255.95625pt x 255.95625pt>
+<sample/ours_dyadic_spectrum.png, id=682, 255.95625pt x 255.95625pt>
 File: sample/ours_dyadic_spectrum.png Graphic file (type png)
 <use sample/ours_dyadic_spectrum.png>
 Package pdftex.def Info: sample/ours_dyadic_spectrum.png  used on input line 56
 5.
 (pdftex.def)             Requested size: 85.35826pt x 85.35628pt.
-<sample/ours_low.pdf, id=682, 266.47108pt x 267.10992pt>
+<sample/ours_low.pdf, id=683, 266.47108pt x 267.10992pt>
 File: sample/ours_low.pdf Graphic file (type pdf)
 <use sample/ours_low.pdf>
 Package pdftex.def Info: sample/ours_low.pdf  used on input line 571.
 (pdftex.def)             Requested size: 85.35826pt x 85.5625pt.
-<sample/ours_low_spectrum.png, id=683, 202.7575pt x 202.7575pt>
+<sample/ours_low_spectrum.png, id=684, 202.7575pt x 202.7575pt>
 File: sample/ours_low_spectrum.png Graphic file (type png)
 <use sample/ours_low_spectrum.png>
 Package pdftex.def Info: sample/ours_low_spectrum.png  used on input line 572.
@@ -1744,45 +1744,45 @@ Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 595.
 cmj.pdf> <./sample/ours_cmj_spectrum.png> <./sample/ours_dyadic.pdf> <./sample/
 ours_dyadic_spectrum.png> <./sample/ours_low.pdf> <./sample/ours_low_spectrum.p
 ng>]
-<sample/dart_blue.pdf, id=701, 267.00299pt x 267.10992pt>
+<sample/dart_blue.pdf, id=702, 267.00299pt x 267.10992pt>
 File: sample/dart_blue.pdf Graphic file (type pdf)
 <use sample/dart_blue.pdf>
 Package pdftex.def Info: sample/dart_blue.pdf  used on input line 630.
 (pdftex.def)             Requested size: 93.89409pt x 93.93005pt.
-<sample/dart_square.pdf, id=702, 267.16809pt x 267.10992pt>
+<sample/dart_square.pdf, id=703, 267.16809pt x 267.10992pt>
 File: sample/dart_square.pdf Graphic file (type pdf)
 <use sample/dart_square.pdf>
 Package pdftex.def Info: sample/dart_square.pdf  used on input line 631.
 (pdftex.def)             Requested size: 93.89409pt x 93.87299pt.
-<sample/dart_twisted.pdf, id=703, 267.14304pt x 267.10992pt>
+<sample/dart_twisted.pdf, id=704, 267.14304pt x 267.10992pt>
 File: sample/dart_twisted.pdf Graphic file (type pdf)
 <use sample/dart_twisted.pdf>
 Package pdftex.def Info: sample/dart_twisted.pdf  used on input line 632.
 (pdftex.def)             Requested size: 93.89409pt x 93.88113pt.
-<sample/dart_cross.pdf, id=704, 267.20819pt x 267.10992pt>
+<sample/dart_cross.pdf, id=705, 267.20819pt x 267.10992pt>
 File: sample/dart_cross.pdf Graphic file (type pdf)
 <use sample/dart_cross.pdf>
 Package pdftex.def Info: sample/dart_cross.pdf  used on input line 633.
 (pdftex.def)             Requested size: 93.89409pt x 93.86076pt.
-<sample/dart_blue_spectrum.png, id=705, 151.56625pt x 151.56625pt>
+<sample/dart_blue_spectrum.png, id=706, 151.56625pt x 151.56625pt>
 File: sample/dart_blue_spectrum.png Graphic file (type png)
 <use sample/dart_blue_spectrum.png>
 Package pdftex.def Info: sample/dart_blue_spectrum.png  used on input line 635.
 
 (pdftex.def)             Requested size: 93.89409pt x 93.89609pt.
-<sample/dart_square_spectrum.png, id=706, 146.5475pt x 146.5475pt>
+<sample/dart_square_spectrum.png, id=707, 146.5475pt x 146.5475pt>
 File: sample/dart_square_spectrum.png Graphic file (type png)
 <use sample/dart_square_spectrum.png>
 Package pdftex.def Info: sample/dart_square_spectrum.png  used on input line 63
 6.
 (pdftex.def)             Requested size: 93.89409pt x 93.89291pt.
-<sample/dart_twisted_spectrum.png, id=707, 197.73875pt x 197.73875pt>
+<sample/dart_twisted_spectrum.png, id=708, 197.73875pt x 197.73875pt>
 File: sample/dart_twisted_spectrum.png Graphic file (type png)
 <use sample/dart_twisted_spectrum.png>
 Package pdftex.def Info: sample/dart_twisted_spectrum.png  used on input line 6
 37.
 (pdftex.def)             Requested size: 93.89409pt x 93.89369pt.
-<sample/dart_cross_spectrum.png, id=708, 158.5925pt x 158.5925pt>
+<sample/dart_cross_spectrum.png, id=709, 158.5925pt x 158.5925pt>
 File: sample/dart_cross_spectrum.png Graphic file (type png)
 <use sample/dart_cross_spectrum.png>
 Package pdftex.def Info: sample/dart_cross_spectrum.png  used on input line 638
@@ -1797,87 +1797,87 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 646.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [15]
-<sample/WBN_blue.pdf, id=713, 267.09224pt x 267.10992pt>
+<sample/WBN_blue.pdf, id=714, 267.09224pt x 267.10992pt>
 File: sample/WBN_blue.pdf Graphic file (type pdf)
 <use sample/WBN_blue.pdf>
 Package pdftex.def Info: sample/WBN_blue.pdf  used on input line 656.
 (pdftex.def)             Requested size: 93.89409pt x 93.90152pt.
-<sample/wbn_square.pdf, id=714, 266.80908pt x 267.10992pt>
+<sample/wbn_square.pdf, id=715, 266.80908pt x 267.10992pt>
 File: sample/wbn_square.pdf Graphic file (type pdf)
 <use sample/wbn_square.pdf>
 Package pdftex.def Info: sample/wbn_square.pdf  used on input line 657.
 (pdftex.def)             Requested size: 93.89409pt x 93.99934pt.
-<sample/wbn_twisted.pdf, id=715, 269.76198pt x 267.10992pt>
+<sample/wbn_twisted.pdf, id=716, 269.76198pt x 267.10992pt>
 File: sample/wbn_twisted.pdf Graphic file (type pdf)
 <use sample/wbn_twisted.pdf>
 Package pdftex.def Info: sample/wbn_twisted.pdf  used on input line 658.
 (pdftex.def)             Requested size: 93.89409pt x 92.96817pt.
-<sample/wbn_cross.pdf, id=716, 267.12088pt x 267.10992pt>
+<sample/wbn_cross.pdf, id=717, 267.12088pt x 267.10992pt>
 File: sample/wbn_cross.pdf Graphic file (type pdf)
 <use sample/wbn_cross.pdf>
 Package pdftex.def Info: sample/wbn_cross.pdf  used on input line 659.
 (pdftex.def)             Requested size: 93.89409pt x 93.8893pt.
-<sample/WBN_blue_spectrum.png, id=717, 262.9825pt x 259.97125pt>
+<sample/WBN_blue_spectrum.png, id=718, 262.9825pt x 259.97125pt>
 File: sample/WBN_blue_spectrum.png Graphic file (type png)
 <use sample/WBN_blue_spectrum.png>
 Package pdftex.def Info: sample/WBN_blue_spectrum.png  used on input line 661.
 (pdftex.def)             Requested size: 93.89409pt x 92.82pt.
-<sample/wbn_square_spectrum.png, id=718, 134.5025pt x 133.49875pt>
+<sample/wbn_square_spectrum.png, id=719, 134.5025pt x 133.49875pt>
 File: sample/wbn_square_spectrum.png Graphic file (type png)
 <use sample/wbn_square_spectrum.png>
 Package pdftex.def Info: sample/wbn_square_spectrum.png  used on input line 662
 .
 (pdftex.def)             Requested size: 93.89409pt x 93.19383pt.
-<sample/wbn_twisted_spectrum.png, id=719, 188.705pt x 188.705pt>
+<sample/wbn_twisted_spectrum.png, id=720, 188.705pt x 188.705pt>
 File: sample/wbn_twisted_spectrum.png Graphic file (type png)
 <use sample/wbn_twisted_spectrum.png>
 Package pdftex.def Info: sample/wbn_twisted_spectrum.png  used on input line 66
 3.
 (pdftex.def)             Requested size: 93.89409pt x 93.89442pt.
-<sample/wbn_cross_spectrum.png, id=720, 132.495pt x 132.495pt>
+<sample/wbn_cross_spectrum.png, id=721, 132.495pt x 132.495pt>
 File: sample/wbn_cross_spectrum.png Graphic file (type png)
 <use sample/wbn_cross_spectrum.png>
 Package pdftex.def Info: sample/wbn_cross_spectrum.png  used on input line 664.
 
 (pdftex.def)             Requested size: 93.89409pt x 93.89418pt.
-<sample/rbn_blue.pdf, id=721, 267.29546pt x 267.10992pt>
+<sample/rbn_blue.pdf, id=722, 267.29546pt x 267.10992pt>
 File: sample/rbn_blue.pdf Graphic file (type pdf)
 <use sample/rbn_blue.pdf>
 Package pdftex.def Info: sample/rbn_blue.pdf  used on input line 682.
 (pdftex.def)             Requested size: 93.89409pt x 93.82816pt.
-<sample/rbn_square.pdf, id=722, 266.23366pt x 267.10992pt>
+<sample/rbn_square.pdf, id=723, 266.23366pt x 267.10992pt>
 File: sample/rbn_square.pdf Graphic file (type pdf)
 <use sample/rbn_square.pdf>
 Package pdftex.def Info: sample/rbn_square.pdf  used on input line 683.
 (pdftex.def)             Requested size: 93.89409pt x 94.20313pt.
-<sample/rbn_twisted.pdf, id=723, 267.34218pt x 267.10992pt>
+<sample/rbn_twisted.pdf, id=724, 267.34218pt x 267.10992pt>
 File: sample/rbn_twisted.pdf Graphic file (type pdf)
 <use sample/rbn_twisted.pdf>
 Package pdftex.def Info: sample/rbn_twisted.pdf  used on input line 684.
 (pdftex.def)             Requested size: 93.89409pt x 93.81186pt.
-<sample/rbn_cross.pdf, id=724, 266.3281pt x 267.10992pt>
+<sample/rbn_cross.pdf, id=725, 266.3281pt x 267.10992pt>
 File: sample/rbn_cross.pdf Graphic file (type pdf)
 <use sample/rbn_cross.pdf>
 Package pdftex.def Info: sample/rbn_cross.pdf  used on input line 685.
 (pdftex.def)             Requested size: 93.89409pt x 94.17052pt.
-<sample/rbn_blue_spectrum.png, id=725, 153.57375pt x 153.57375pt>
+<sample/rbn_blue_spectrum.png, id=726, 153.57375pt x 153.57375pt>
 File: sample/rbn_blue_spectrum.png Graphic file (type png)
 <use sample/rbn_blue_spectrum.png>
 Package pdftex.def Info: sample/rbn_blue_spectrum.png  used on input line 687.
 (pdftex.def)             Requested size: 93.89409pt x 93.89543pt.
-<sample/rbn_square_spectrum.png, id=726, 205.76875pt x 205.76875pt>
+<sample/rbn_square_spectrum.png, id=727, 205.76875pt x 205.76875pt>
 File: sample/rbn_square_spectrum.png Graphic file (type png)
 <use sample/rbn_square_spectrum.png>
 Package pdftex.def Info: sample/rbn_square_spectrum.png  used on input line 688
 .
 (pdftex.def)             Requested size: 93.89409pt x 93.89494pt.
-<sample/rbn_twisted_spectrum.png, id=727, 250.9375pt x 250.9375pt>
+<sample/rbn_twisted_spectrum.png, id=728, 250.9375pt x 250.9375pt>
 File: sample/rbn_twisted_spectrum.png Graphic file (type png)
 <use sample/rbn_twisted_spectrum.png>
 Package pdftex.def Info: sample/rbn_twisted_spectrum.png  used on input line 68
 9.
 (pdftex.def)             Requested size: 93.89409pt x 93.89456pt.
-<sample/rbn_cross_spectrum.png, id=728, 196.735pt x 196.735pt>
+<sample/rbn_cross_spectrum.png, id=729, 196.735pt x 196.735pt>
 File: sample/rbn_cross_spectrum.png Graphic file (type png)
 <use sample/rbn_cross_spectrum.png>
 Package pdftex.def Info: sample/rbn_cross_spectrum.png  used on input line 690.
@@ -1981,7 +1981,7 @@ File: logos/logo_MPI-INF.png Graphic file (type png)
 Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 924.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
  [23]
-<schema/schema_square.png, id=836, 841.1425pt x 704.6325pt>
+<schema/schema_square.png, id=837, 841.1425pt x 704.6325pt>
 File: schema/schema_square.png Graphic file (type png)
 <use schema/schema_square.png>
 Package pdftex.def Info: schema/schema_square.png  used on input line 945.
@@ -2014,16 +2014,16 @@ Package pdftex.def Info: logos/logo_MPI-INF.png  used on input line 970.
 (pdftex.def)             Requested size: 92.21555pt x 41.10178pt.
 [25] (./rapport.aux)
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: 32BBBC074B598A4978CA273375466A83;7721.
+(rerunfilecheck)             Checksum: 7122025119B2FFE76AD87A790CA72F90;7710.
 Package logreq Info: Writing requests to 'rapport.run.xml'.
 \openout1 = `rapport.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34032 strings out of 478994
- 620868 string characters out of 5858183
- 1444217 words of memory out of 5000000
- 50838 multiletter control sequences out of 15000+600000
+ 34033 strings out of 478994
+ 620879 string characters out of 5858183
+ 1444221 words of memory out of 5000000
+ 50839 multiletter control sequences out of 15000+600000
  420586 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,18n,130p,1883b,2462s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2050,10 +2050,10 @@ mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2021/texmf
 -dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2021/texmf-d
 ist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2021/texmf-dis
 t/fonts/type1/public/stmaryrd/stmary10.pfb>
-Output written on rapport.pdf (25 pages, 9029611 bytes).
+Output written on rapport.pdf (25 pages, 9028787 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 542 compressed objects within 6 object streams
+ 944 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
  100 named destinations out of 1000 (max. 500000)
  766 words of extra memory for PDF output out of 10000 (max. 10000000)
 
