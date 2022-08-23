@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.2}Spectral analyse of some function}{3}{subsection.2.2}%
 \contentsline {section}{\numberline {3}Anisotropic sample}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Radial Average algorithm}{5}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Modified SOT}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Modified slice optimal transport}{6}{subsection.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}Double wedge spectrum}{6}{subsubsection.3.2.1}%
 \contentsline {subsubsubsection}{\numberline {3.2.1.a}Simple double wedge}{6}{subsubsubsection.3.2.1.1}%
 \contentsline {subsubsubsection}{\numberline {3.2.1.b}Better double wedge}{7}{subsubsubsection.3.2.1.2}%
