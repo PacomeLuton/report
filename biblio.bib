@@ -1,0 +1,178 @@
+
+@misc{BregmanProjection,
+  doi = {10.48550/ARXIV.1412.5154},
+  url = {https://arxiv.org/abs/1412.5154},
+  author = {Benamou, Jean-David and Carlier, Guillaume and Cuturi, Marco and Nenna, Luca and Peyré, Gabriel},
+  keywords = {Numerical Analysis (math.NA), Analysis of PDEs (math.AP), FOS: Mathematics, FOS: Mathematics},
+  title = {Iterative Bregman Projections for Regularized Transportation Problems},
+  publisher = {arXiv},
+  year = {2014},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+@article{BlueNoiseWassertein,
+author = {Qin, Hongxing and Chen, Yi and He, Jinlong and Chen, Baoquan},
+title = {Wasserstein Blue Noise Sampling},
+year = {2017},
+issue_date = {October 2017},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {36},
+number = {5},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3119910},
+doi = {10.1145/3119910},
+abstract = {In this article, we present a multi-class blue noise sampling algorithm by throwing samples as the constrained Wasserstein barycenter of multiple density distributions. Using an entropic regularization term, a constrained transport plan in the optimal transport problem is provided to break the partition required by the previous Capacity-Constrained Voronoi Tessellation method. The entropic regularization term cannot only control spatial regularity of blue noise sampling, but it also reduces conflicts between the desired centroids of Vornoi cells for multi-class sampling. Moreover, the adaptive blue noise property is guaranteed for each individual class, as well as their combined class. Our method can be easily extended to multi-class sampling on a point set surface. We also demonstrate applications in object distribution and color stippling.},
+journal = {ACM Trans. Graph.},
+articleno = {168},
+numpages = {13},
+keywords = {Blue noise sampling, surface sampling, Wasserstein barycenter, adaptive sampling}
+}
+
+@article{singh17convergence,
+    author = "Singh, Gurprit and Jarosz, Wojciech",
+    title = "Convergence analysis for anisotropic {{Monte}} {{Carlo}} sampling spectra",
+    journal = "ACM Transactions on Graphics (Proceedings of SIGGRAPH)",
+    volume = "36",
+    number = "4",
+    year = "2017",
+    month = jul,
+    doi = "10/gbxfhj",
+    keywords = "stochastic sampling, signal processing, Fourier transform, Power spectrum",
+    abstract = "Traditional Monte Carlo (MC) integration methods use point samples to numerically approximate the underlying integral. This approximation introduces variance in the integrated result, and this error can depend critically on the sampling patterns used during integration. Most of the well-known samplers used for MC integration in graphics—e.g. jittered, Latin-hypercube (N-rooks), multijittered—are anisotropic in nature. However, there are currently no tools available to analyze the impact of such anisotropic samplers on the variance convergence behavior of Monte Carlo integration. In this work, we develop a Fourier-domain mathematical tool to analyze the variance, and subsequently the convergence rate, of Monte Carlo integration using any arbitrary (anisotropic) sampling power spectrum. We also validate and leverage our theoretical analysis, demonstrating that judicious alignment of anisotropic sampling and integrand spectra can improve variance and convergence rates in MC rendering, and that similar improvements can apply to (anisotropic) deterministic samplers."
+}
+
+@article{Pilleboue:2015:VAMCI,
+author = {Pilleboue, Adrien and Singh, Gurprit and Coeurjolly, David and Kazhdan, Michael and Ostromoukhov, Victor},
+title = {Variance Analysis for Monte Carlo Integration},
+journal = {ACM Trans. Graph. (Proc. SIGGRAPH)},
+volume = {34},
+number = {4},
+year = {2015},
+pages= {124:1--124:14},
+publisher = {ACM},
+address = {New York, NY, USA},
+abstract= {We propose a new spectral analysis of the variance in Monte Carlo integration, expressed in terms of the power spectra of the sampling pattern and the integrand involved. We build our framework in the Euclidean space using Fourier tools and on the sphere using spherical harmonics. We further provide a theoretical background that explains how our spherical framework can be extended to the hemispherical domain. We use our framework to estimate the variance convergence rate of different state-of-the-art sampling patterns in both the Euclidean and spherical domains, as the number of samples increases. Furthermore, we formulate design principles for constructing sampling methods that can be tailored according to available resources. We validate our theoretical framework by performing numerical integration over several integrands sampled using different sampling patterns.}
+} 
+
+@article{dyadic,
+author = {Ahmed, Abdalla G. M. and Wonka, Peter},
+title = {Optimizing Dyadic Nets},
+year = {2021},
+issue_date = {August 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {40},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3450626.3459880},
+doi = {10.1145/3450626.3459880},
+abstract = {We explore the space of (0, m, 2)-nets in base 2 commonly used for sampling. We present a novel constructive algorithm that can exhaustively generate all nets --- up to m-bit resolution --- and thereby compute the exact number of distinct nets. We observe that the construction algorithm holds the key to defining a transformation operation that lets us transform one valid net into another one. This enables the optimization of digital nets using arbitrary objective functions. For example, we define an analytic energy function for blue noise, and use it to generate nets with high-quality blue-noise frequency power spectra. We also show that the space of (0, 2)-sequences is significantly smaller than nets with the same number of points, which drastically limits the optimizability of sequences.},
+journal = {ACM Trans. Graph.},
+month = {jul},
+articleno = {141},
+numpages = {17},
+keywords = {quasi-Monte Carlo, digital nets, owen's scrambling, blue noise, nets, low-discrepancy sequences, sobol sequences, faure-tezuka scrambling, sampling, dyadic nets}
+}
+
+@article{journals/tog/EganHDR11,
+  added-at = {2018-11-06T00:00:00.000+0100},
+  author = {Egan, Kevin and Hecht, Florian and Durand, Frédo and Ramamoorthi, Ravi},
+  biburl = {https://www.bibsonomy.org/bibtex/29fb361b9f84263bc214ed3b316e048a1/dblp},
+  ee = {https://doi.org/10.1145/1944846.1944849},
+  interhash = {32b31306a508780b52a992aba48e48aa},
+  intrahash = {9fb361b9f84263bc214ed3b316e048a1},
+  journal = {ACM Trans. Graph.},
+  keywords = {dblp},
+  number = 2,
+  pages = {9:1-9:13},
+  timestamp = {2018-11-07T12:27:47.000+0100},
+  title = {Frequency analysis and sheared filtering for shadow light fields of complex occluders.},
+  url = {http://dblp.uni-trier.de/db/journals/tog/tog30.html#EganHDR11},
+  volume = 30,
+  year = 2011
+}
+
+@article{DBLP:journals/tog/RamamoorthiAMN12,
+  author    = {Ravi Ramamoorthi and
+               John Anderson and
+               Mark Meyer and
+               Derek Nowrouzezahrai},
+  title     = {A theory of monte carlo visibility sampling},
+  journal   = {{ACM} Trans. Graph.},
+  volume    = {31},
+  number    = {5},
+  pages     = {121:1--121:16},
+  year      = {2012},
+  url       = {https://doi.org/10.1145/2231816.2231819},
+  doi       = {10.1145/2231816.2231819},
+  timestamp = {Tue, 25 Aug 2020 01:00:00 +0200},
+  biburl    = {https://dblp.org/rec/journals/tog/RamamoorthiAMN12.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{10.1145/1778765.1778816,
+author = {Wei, Li-Yi},
+title = {Multi-Class Blue Noise Sampling},
+year = {2010},
+issue_date = {July 2010},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {29},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/1778765.1778816},
+doi = {10.1145/1778765.1778816},
+abstract = {Sampling is a core process for a variety of graphics applications. Among existing sampling methods, blue noise sampling remains popular thanks to its spatial uniformity and absence of aliasing artifacts. However, research so far has been mainly focused on blue noise sampling with a single class of samples. This could be insufficient for common natural as well as man-made phenomena requiring multiple classes of samples, such as object placement, imaging sensors, and stippling patterns.We extend blue noise sampling to multiple classes where each individual class as well as their unions exhibit blue noise characteristics. We propose two flavors of algorithms to generate such multi-class blue noise samples, one extended from traditional Poisson hard disk sampling for explicit control of sample spacing, and another based on our soft disk sampling for explicit control of sample count. Our algorithms support uniform and adaptive sampling, and are applicable to both discrete and continuous sample space in arbitrary dimensions. We study characteristics of samples generated by our methods, and demonstrate applications in object placement, sensor layout, and color stippling.},
+journal = {ACM Trans. Graph.},
+month = {jul},
+articleno = {79},
+numpages = {8},
+keywords = {multi-class, relaxation, dart throwing, poisson hard/soft disk, sampling, blue noise}
+}
+
+@article{10.1145/3478513.3480534,
+author = {Schulz, Christoph and Kwan, Kin Chung and Becher, Michael and Baumgartner, Daniel and Reina, Guido and Deussen, Oliver and Weiskopf, Daniel},
+title = {Multi-Class Inverted Stippling},
+year = {2021},
+issue_date = {December 2021},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {40},
+number = {6},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/3478513.3480534},
+doi = {10.1145/3478513.3480534},
+abstract = {We introduce inverted stippling, a method to mimic an inversion technique used by artists when performing stippling. To this end, we extend Linde-Buzo-Gray (LBG) stippling to multi-class LBG (MLBG) stippling with multiple layers. MLBG stippling couples the layers stochastically to optimize for per-layer and overall blue-noise properties. We propose a stipple-based filling method to generate solid color backgrounds for inverting areas. Our experiments demonstrate the effectiveness of MLBG in terms of reducing overlapping and intensity accuracy. In addition, we showcase MLBG with color stippling and dynamic multi-class blue-noise sampling, which is possible due to its support for temporal coherence.},
+journal = {ACM Trans. Graph.},
+month = {dec},
+articleno = {245},
+numpages = {12},
+keywords = {linde-buzo-gray-algorithm, voronoi diagram, stippling, sampling, negative space}
+}
+
+@article{10.1145/2461912.2462013,
+author = {Subr, Kartic and Kautz, Jan},
+title = {Fourier Analysis of Stochastic Sampling Strategies for Assessing Bias and Variance in Integration},
+year = {2013},
+issue_date = {July 2013},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {32},
+number = {4},
+issn = {0730-0301},
+url = {https://doi.org/10.1145/2461912.2462013},
+doi = {10.1145/2461912.2462013},
+abstract = {Each pixel in a photorealistic, computer generated picture is calculated by approximately integrating all the light arriving at the pixel, from the virtual scene. A common strategy to calculate these high-dimensional integrals is to average the estimates at stochastically sampled locations. The strategy with which the sampled locations are chosen is of utmost importance in deciding the quality of the approximation, and hence rendered image.We derive connections between the spectral properties of stochastic sampling patterns and the first and second order statistics of estimates of integration using the samples. Our equations provide insight into the assessment of stochastic sampling strategies for integration. We show that the amplitude of the expected Fourier spectrum of sampling patterns is a useful indicator of the bias when used in numerical integration. We deduce that estimator variance is directly dependent on the variance of the sampling spectrum over multiple realizations of the sampling pattern. We then analyse Gaussian jittered sampling, a simple variant of jittered sampling, that allows a smooth trade-off of bias for variance in uniform (regular grid) sampling. We verify our predictions using spectral measurement, quantitative integration experiments and qualitative comparisons of rendered images.},
+journal = {ACM Trans. Graph.},
+month = {jul},
+articleno = {128},
+numpages = {12},
+keywords = {Monte Carlo sampling, fourier analysis, stochastic sampling}
+}
+
+@inproceedings{Durand2011AFA,
+  title={A Frequency Analysis of Monte-Carlo and other Numerical Integration Schemes},
+  author={Fr{\'e}do Durand},
+  year={2011}
+}

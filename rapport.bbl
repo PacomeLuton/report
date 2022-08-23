@@ -1,0 +1,664 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{dyadic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AAGM}{%
+         family={Ahmed},
+         familyi={A\bibinitperiod},
+         given={Abdalla G.\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wonka},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{quasi-Monte Carlo, digital nets, owen's scrambling, blue noise, nets,
+  low-discrepancy sequences, sobol sequences, faure-tezuka scrambling,
+  sampling, dyadic nets}
+    \strng{namehash}{AAGMWP1}
+    \strng{fullhash}{AAGMWP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    We explore the space of (0, m, 2)-nets in base 2 commonly used for
+  sampling. We present a novel constructive algorithm that can exhaustively
+  generate all nets --- up to m-bit resolution --- and thereby compute the
+  exact number of distinct nets. We observe that the construction algorithm
+  holds the key to defining a transformation operation that lets us transform
+  one valid net into another one. This enables the optimization of digital nets
+  using arbitrary objective functions. For example, we define an analytic
+  energy function for blue noise, and use it to generate nets with high-quality
+  blue-noise frequency power spectra. We also show that the space of (0,
+  2)-sequences is significantly smaller than nets with the same number of
+  points, which drastically limits the optimizability of sequences.%
+    }
+    \verb{doi}
+    \verb 10.1145/3450626.3459880
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{4}
+    \field{title}{Optimizing Dyadic Nets}
+    \verb{url}
+    \verb https://doi.org/10.1145/3450626.3459880
+    \endverb
+    \field{volume}{40}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{BregmanProjection}{misc}{}
+    \name{author}{5}{}{%
+      {{hash=BJD}{%
+         family={Benamou},
+         familyi={B\bibinitperiod},
+         given={Jean-David},
+         giveni={J\bibinithyphendelim D\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Carlier},
+         familyi={C\bibinitperiod},
+         given={Guillaume},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cuturi},
+         familyi={C\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NL}{%
+         family={Nenna},
+         familyi={N\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PG}{%
+         family={Peyré},
+         familyi={P\bibinitperiod},
+         given={Gabriel},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {arXiv}%
+    }
+    \keyw{Numerical Analysis (math.NA), Analysis of PDEs (math.AP), FOS:
+  Mathematics, FOS: Mathematics}
+    \strng{namehash}{BJD+1}
+    \strng{fullhash}{BJDCGCMNLPG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.48550/ARXIV.1412.5154
+    \endverb
+    \field{title}{Iterative Bregman Projections for Regularized Transportation
+  Problems}
+    \verb{url}
+    \verb https://arxiv.org/abs/1412.5154
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Durand2011AFA}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=DF}{%
+         family={Durand},
+         familyi={D\bibinitperiod},
+         given={Fr{\'e}do},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DF1}
+    \strng{fullhash}{DF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{title}{A Frequency Analysis of Monte-Carlo and other Numerical
+  Integration Schemes}
+    \field{year}{2011}
+  \endentry
+
+  \entry{journals/tog/EganHDR11}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EK}{%
+         family={Egan},
+         familyi={E\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=HF}{%
+         family={Hecht},
+         familyi={H\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Durand},
+         familyi={D\bibinitperiod},
+         given={Frédo},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ramamoorthi},
+         familyi={R\bibinitperiod},
+         given={Ravi},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \keyw{dblp}
+    \strng{namehash}{EK+1}
+    \strng{fullhash}{EKHFDFRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{number}{2}
+    \field{pages}{9:1\bibrangedash 9:13}
+    \field{title}{Frequency analysis and sheared filtering for shadow light
+  fields of complex occluders.}
+    \verb{url}
+    \verb http://dblp.uni-trier.de/db/journals/tog/tog30.html#EganHDR11
+    \endverb
+    \field{volume}{30}
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Pilleboue:2015:VAMCI}{article}{}
+    \name{author}{5}{}{%
+      {{hash=PA}{%
+         family={Pilleboue},
+         familyi={P\bibinitperiod},
+         given={Adrien},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Gurprit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CD}{%
+         family={Coeurjolly},
+         familyi={C\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kazhdan},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OV}{%
+         family={Ostromoukhov},
+         familyi={O\bibinitperiod},
+         given={Victor},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{PA+1}
+    \strng{fullhash}{PASGCDKMOV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    We propose a new spectral analysis of the variance in Monte Carlo
+  integration, expressed in terms of the power spectra of the sampling pattern
+  and the integrand involved. We build our framework in the Euclidean space
+  using Fourier tools and on the sphere using spherical harmonics. We further
+  provide a theoretical background that explains how our spherical framework
+  can be extended to the hemispherical domain. We use our framework to estimate
+  the variance convergence rate of different state-of-the-art sampling patterns
+  in both the Euclidean and spherical domains, as the number of samples
+  increases. Furthermore, we formulate design principles for constructing
+  sampling methods that can be tailored according to available resources. We
+  validate our theoretical framework by performing numerical integration over
+  several integrands sampled using different sampling patterns.%
+    }
+    \field{number}{4}
+    \field{pages}{124:1\bibrangedash 124:14}
+    \field{title}{Variance Analysis for Monte Carlo Integration}
+    \field{volume}{34}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph. (Proc. SIGGRAPH)}
+    \field{year}{2015}
+  \endentry
+
+  \entry{BlueNoiseWassertein}{article}{}
+    \name{author}{4}{}{%
+      {{hash=QH}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Hongxing},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jinlong},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Baoquan},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Blue noise sampling, surface sampling, Wasserstein barycenter,
+  adaptive sampling}
+    \strng{namehash}{QH+1}
+    \strng{fullhash}{QHCYHJCB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{Q}
+    \field{sortinithash}{Q}
+    \field{abstract}{%
+    In this article, we present a multi-class blue noise sampling algorithm by
+  throwing samples as the constrained Wasserstein barycenter of multiple
+  density distributions. Using an entropic regularization term, a constrained
+  transport plan in the optimal transport problem is provided to break the
+  partition required by the previous Capacity-Constrained Voronoi Tessellation
+  method. The entropic regularization term cannot only control spatial
+  regularity of blue noise sampling, but it also reduces conflicts between the
+  desired centroids of Vornoi cells for multi-class sampling. Moreover, the
+  adaptive blue noise property is guaranteed for each individual class, as well
+  as their combined class. Our method can be easily extended to multi-class
+  sampling on a point set surface. We also demonstrate applications in object
+  distribution and color stippling.%
+    }
+    \verb{doi}
+    \verb 10.1145/3119910
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{5}
+    \field{title}{Wasserstein Blue Noise Sampling}
+    \verb{url}
+    \verb https://doi.org/10.1145/3119910
+    \endverb
+    \field{volume}{36}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2017}
+  \endentry
+
+  \entry{DBLP:journals/tog/RamamoorthiAMN12}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RR}{%
+         family={Ramamoorthi},
+         familyi={R\bibinitperiod},
+         given={Ravi},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ND}{%
+         family={Nowrouzezahrai},
+         familyi={N\bibinitperiod},
+         given={Derek},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RR+1}
+    \strng{fullhash}{RRAJMMND1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \verb{doi}
+    \verb 10.1145/2231816.2231819
+    \endverb
+    \field{number}{5}
+    \field{pages}{121:1\bibrangedash 121:16}
+    \field{title}{A theory of monte carlo visibility sampling}
+    \verb{url}
+    \verb https://doi.org/10.1145/2231816.2231819
+    \endverb
+    \field{volume}{31}
+    \field{journaltitle}{{ACM} Trans. Graph.}
+    \field{year}{2012}
+  \endentry
+
+  \entry{10.1145/3478513.3480534}{article}{}
+    \name{author}{7}{}{%
+      {{hash=SC}{%
+         family={Schulz},
+         familyi={S\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=KKC}{%
+         family={Kwan},
+         familyi={K\bibinitperiod},
+         given={Kin\bibnamedelima Chung},
+         giveni={K\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Becher},
+         familyi={B\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baumgartner},
+         familyi={B\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RG}{%
+         family={Reina},
+         familyi={R\bibinitperiod},
+         given={Guido},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=DO}{%
+         family={Deussen},
+         familyi={D\bibinitperiod},
+         given={Oliver},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WD}{%
+         family={Weiskopf},
+         familyi={W\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{linde-buzo-gray-algorithm, voronoi diagram, stippling, sampling,
+  negative space}
+    \strng{namehash}{SC+1}
+    \strng{fullhash}{SCKKCBMBDRGDOWD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2021}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    We introduce inverted stippling, a method to mimic an inversion technique
+  used by artists when performing stippling. To this end, we extend
+  Linde-Buzo-Gray (LBG) stippling to multi-class LBG (MLBG) stippling with
+  multiple layers. MLBG stippling couples the layers stochastically to optimize
+  for per-layer and overall blue-noise properties. We propose a stipple-based
+  filling method to generate solid color backgrounds for inverting areas. Our
+  experiments demonstrate the effectiveness of MLBG in terms of reducing
+  overlapping and intensity accuracy. In addition, we showcase MLBG with color
+  stippling and dynamic multi-class blue-noise sampling, which is possible due
+  to its support for temporal coherence.%
+    }
+    \verb{doi}
+    \verb 10.1145/3478513.3480534
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{6}
+    \field{title}{Multi-Class Inverted Stippling}
+    \verb{url}
+    \verb https://doi.org/10.1145/3478513.3480534
+    \endverb
+    \field{volume}{40}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2021}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{singh17convergence}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SG}{%
+         family={Singh},
+         familyi={S\bibinitperiod},
+         given={Gurprit},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=JW}{%
+         family={Jarosz},
+         familyi={J\bibinitperiod},
+         given={Wojciech},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{stochastic sampling, signal processing, Fourier transform, Power
+  spectrum}
+    \strng{namehash}{SGJW1}
+    \strng{fullhash}{SGJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Traditional Monte Carlo (MC) integration methods use point samples to
+  numerically approximate the underlying integral. This approximation
+  introduces variance in the integrated result, and this error can depend
+  critically on the sampling patterns used during integration. Most of the
+  well-known samplers used for MC integration in graphics—e.g. jittered,
+  Latin-hypercube (N-rooks), multijittered—are anisotropic in nature.
+  However, there are currently no tools available to analyze the impact of such
+  anisotropic samplers on the variance convergence behavior of Monte Carlo
+  integration. In this work, we develop a Fourier-domain mathematical tool to
+  analyze the variance, and subsequently the convergence rate, of Monte Carlo
+  integration using any arbitrary (anisotropic) sampling power spectrum. We
+  also validate and leverage our theoretical analysis, demonstrating that
+  judicious alignment of anisotropic sampling and integrand spectra can improve
+  variance and convergence rates in MC rendering, and that similar improvements
+  can apply to (anisotropic) deterministic samplers.%
+    }
+    \verb{doi}
+    \verb 10/gbxfhj
+    \endverb
+    \field{number}{4}
+    \field{title}{Convergence analysis for anisotropic {{Monte}} {{Carlo}}
+  sampling spectra}
+    \field{volume}{36}
+    \field{journaltitle}{ACM Transactions on Graphics (Proceedings of
+  SIGGRAPH)}
+    \field{month}{07}
+    \field{year}{2017}
+  \endentry
+
+  \entry{10.1145/2461912.2462013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SK}{%
+         family={Subr},
+         familyi={S\bibinitperiod},
+         given={Kartic},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kautz},
+         familyi={K\bibinitperiod},
+         given={Jan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{Monte Carlo sampling, fourier analysis, stochastic sampling}
+    \strng{namehash}{SKKJ1}
+    \strng{fullhash}{SKKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Each pixel in a photorealistic, computer generated picture is calculated by
+  approximately integrating all the light arriving at the pixel, from the
+  virtual scene. A common strategy to calculate these high-dimensional
+  integrals is to average the estimates at stochastically sampled locations.
+  The strategy with which the sampled locations are chosen is of utmost
+  importance in deciding the quality of the approximation, and hence rendered
+  image.We derive connections between the spectral properties of stochastic
+  sampling patterns and the first and second order statistics of estimates of
+  integration using the samples. Our equations provide insight into the
+  assessment of stochastic sampling strategies for integration. We show that
+  the amplitude of the expected Fourier spectrum of sampling patterns is a
+  useful indicator of the bias when used in numerical integration. We deduce
+  that estimator variance is directly dependent on the variance of the sampling
+  spectrum over multiple realizations of the sampling pattern. We then analyse
+  Gaussian jittered sampling, a simple variant of jittered sampling, that
+  allows a smooth trade-off of bias for variance in uniform (regular grid)
+  sampling. We verify our predictions using spectral measurement, quantitative
+  integration experiments and qualitative comparisons of rendered images.%
+    }
+    \verb{doi}
+    \verb 10.1145/2461912.2462013
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{4}
+    \field{title}{Fourier Analysis of Stochastic Sampling Strategies for
+  Assessing Bias and Variance in Integration}
+    \verb{url}
+    \verb https://doi.org/10.1145/2461912.2462013
+    \endverb
+    \field{volume}{32}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{10.1145/1778765.1778816}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WLY}{%
+         family={Wei},
+         familyi={W\bibinitperiod},
+         given={Li-Yi},
+         giveni={L\bibinithyphendelim Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Association for Computing Machinery}%
+    }
+    \keyw{multi-class, relaxation, dart throwing, poisson hard/soft disk,
+  sampling, blue noise}
+    \strng{namehash}{WLY1}
+    \strng{fullhash}{WLY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Sampling is a core process for a variety of graphics applications. Among
+  existing sampling methods, blue noise sampling remains popular thanks to its
+  spatial uniformity and absence of aliasing artifacts. However, research so
+  far has been mainly focused on blue noise sampling with a single class of
+  samples. This could be insufficient for common natural as well as man-made
+  phenomena requiring multiple classes of samples, such as object placement,
+  imaging sensors, and stippling patterns.We extend blue noise sampling to
+  multiple classes where each individual class as well as their unions exhibit
+  blue noise characteristics. We propose two flavors of algorithms to generate
+  such multi-class blue noise samples, one extended from traditional Poisson
+  hard disk sampling for explicit control of sample spacing, and another based
+  on our soft disk sampling for explicit control of sample count. Our
+  algorithms support uniform and adaptive sampling, and are applicable to both
+  discrete and continuous sample space in arbitrary dimensions. We study
+  characteristics of samples generated by our methods, and demonstrate
+  applications in object placement, sensor layout, and color stippling.%
+    }
+    \verb{doi}
+    \verb 10.1145/1778765.1778816
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{4}
+    \field{title}{Multi-Class Blue Noise Sampling}
+    \verb{url}
+    \verb https://doi.org/10.1145/1778765.1778816
+    \endverb
+    \field{volume}{29}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\enddatalist
+\endinput
