@@ -408,10 +408,13 @@ some particular direction, here are plot of means square error when $N$ increase
 
 \>  But, in reality, as the previous plot show, those improvement, are 
     only a constant time better than 
-    blue noise. In order to have achieve a new order of convergence, we would need to
+    blue noise. Which is good, but not as great that we initially want. In order to have achieve a new order of convergence, we would need to
     make the size of the interval depends on the number of sample. Intuitively, the power 
-    spectrum of a sample is like having $O(N)$ quantity of dark region, due to his strong 
-    link with PCF (pair correlation function).
+    spectrum of a sample is like having a set of frequency $\omega$ where $\mathcal F_S(\omega)$ is small, where $N$ is 
+    the number of point in our samples of size $O(N)$. This is due to his strong link with PCF (pair correlation function). 
+    Thus, we can't make this set grow in an constant infinite number of direction faster than $O(\sqrt N)$. And thus, the
+    convergence rate can't be better than $O(N^{1.5})$[\cite{singh17convergence}]. 
+
 
 \subsubsection{Cross in 2D}
 
