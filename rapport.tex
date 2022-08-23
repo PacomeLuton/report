@@ -175,7 +175,7 @@ where $\mathbb A$ is the $d$ dimensional euclidean space.
     that if we want to reduce the variance, we need to match the 
     spectrum of our point distribution with that of the function 
     we are integrating. In other words, for frequency $\omega$
-    where $\mathcal F_f(\omega)$ is big, we want $\mathcal F_S(\omega)$ to be small.
+    where $\mathcal P_f(\omega)$ is big, we want $\mathcal P_S(\omega)$ to be small.
 
 \> For instance, in the paper [\cite{singh17convergence}], they showed that for 
     some rendering function, we may have some improvement in the 
@@ -410,7 +410,7 @@ some particular direction, here are plot of means square error when $N$ increase
     only a constant time better than 
     blue noise. Which is good, but not as great that we initially want. In order to have achieve a new order of convergence, we would need to
     make the size of the interval depends on the number of sample. Intuitively, the power 
-    spectrum of a sample is like having a set of frequency $\omega$ where $\mathcal F_S(\omega)$ is small, where $N$ is 
+    spectrum of a sample is like having a set of frequency $\omega$ where $\mathcal P_S(\omega)$ is small, where $N$ is 
     the number of point in our samples of size $O(N)$. This is due to his strong link with PCF (pair correlation function). 
     Thus, we can't make this set grow in an constant infinite number of direction faster than $O(\sqrt N)$. And thus, the
     convergence rate can't be better than $O(N^{1.5})$[\cite{singh17convergence}]. 
@@ -509,12 +509,9 @@ $O(1/N^{4/3})$.
     make a a convergence rate that pass by any $O(N^r)$ on finite interval.
 
 \> \textit{Why does it matter ?} More generally, theoretically, if we compute the 
-    isovalue of the power spectrum of the function, and we generate sample that has 
-    the same isovalue. We could improve the overall convergence rate. For example 
-    if in 2D, we have a function $f$, for which the power spectrum isovalue is 
-    a rectangle that decrease faster in Y-axis that in X-axis. Then we could improve the overall 
-    convergence rate, by making a sample where the dark region of the power spectrum 
-    follow this pattern.
+    isovalue of the power spectrum $\mathcal P_f$ of a function $f$, 
+    and we generate sample that such that $\mathcal P_S$ has the same isovalue.
+    We could improve the overall convergence rate.
 
 \subsubsection{Attempt to 3D generalization}
     A naive way to generalized this in 3D, it to optimize along 2D projection. For instance,
